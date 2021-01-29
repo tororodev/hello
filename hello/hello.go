@@ -1,5 +1,7 @@
 package hello
 
+import "log"
+
 func Say() {
-	println("Hello")
+	log.Println("Hello")
 }
